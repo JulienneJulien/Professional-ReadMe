@@ -7,10 +7,10 @@ const questions = [
 // REPO TITLE
 {
     type: 'input',
-    name:  'tittle',
+    name:  'title',
     message: 'What is the title of your application repository? (required)',
-    validate: tittleEntered => {
-    if (tittleEntered) {
+    validate: titleEntered => {
+    if (titleEntered) {
         return true;
     } else {
         console.log('Please enter application repository title to continue!');
