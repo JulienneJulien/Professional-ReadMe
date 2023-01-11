@@ -17,16 +17,35 @@ function generateMarkdown(userInput) {
 
 ## Table of Content
 - [Description](#Description)
-- [Description](#Description)
-- [Description](#Description)
-- [Description](#Description)
-- [Description](#Description)
-- [Description](#Description)
-- [Description](#Description)
-- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [License](#License)
+- [Questions](#Questions)
 
 ## Description
 ${userInput.description}
+
+## Installation
+${userInput.installation}
+
+## Usage
+${userInput.usage}
+
+## Contributing
+${userInput.contribution}
+
+## Tests
+${userInput.testing}
+
+## License
+${userInput.license}
+
+## Questions
+${userInput.github}
+${userInput.email}
+
 
 `;
 }
