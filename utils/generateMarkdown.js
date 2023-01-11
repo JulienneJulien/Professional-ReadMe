@@ -1,25 +1,46 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//Created a function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
-  const badges = {
-    Apache: '[https://img.shields.io/badge/license-%20Apache%20License%202.0-blue](https://shields.io/)',
+  // If there is no license, will return an empty string
+  if(license === 'noLicense') {
+      return '';
+  } else {
+  return `[![${license} license](https://img.shields.io/badge/license-${license}-blue.svg)](${renderLicenseLink(license)})`;
   }
-
-  return badges[license]
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+//Created a function that returns the license link
+function renderLicenseLink(license) {
+  if (license === 'Apache') {  
+    return `https://www.apache.org/licenses/LICENSE-2.0`
+  }
+  if (license === 'GPL') {  
+    return `https://perso.crans.org/besson/LICENSE.html`
+  }
+  if (license === 'MIT') {  
+    return `https://mit-license.org/`
+  }
+  if (license === 'BSD') {  
+    return `https://opensource.org/licenses/BSD-2-Clause`
+  }
+  if (license === 'Boost') {  
+    return `https://www.boost.org/LICENSE_1_0.txt`
+  }
+}
+//Created a function that returns the license section of README
+function renderLicenseSection(license) {
+  if (license === 'noLicense') {
+    return ``;
+  } else {
+    return `## License
+    This application is licensed under the ${license} license.`
+  }
+}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+//Created a function to generate markdown for README
 function generateMarkdown(userInput) {
-  return `
-# ${userInput.title}
+  return `#${userInput.title}
+
+${renderLicenseBadge(userInput.license)}
 
 ## Table of Content
 - [Description](#Description)
@@ -42,12 +63,12 @@ ${userInput.usage}
 ## Contributing
 ${userInput.contribution}
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+*Contributor Covenant encourages contributions of all kinds from people around the world. This makes the practice of open source as much social as it is technical.*
 
 ## Tests
 ${userInput.testing}
 
-## License
-${(userInput.license)}
+${renderLicenseSection(userInput.license)}
 
 ## Questions
 GitHub: ${userInput.github}

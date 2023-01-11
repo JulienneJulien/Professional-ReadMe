@@ -64,15 +64,7 @@ const questions = [
 {
     type: 'input',
     name:  'contribution',
-    message: 'Who can contribute to your application repository? (required)',
-    validate: contributionInfo => {
-    if (contributionInfo) {
-        return true;
-    } else {
-        console.log('Please enter application repository contribution guidelines to continue!');
-        return false;
-    }
-    }
+    message: 'Who can contribute to your application repository?',
 },
 // REPO TEST INFO
 {
@@ -90,10 +82,10 @@ const questions = [
 },    
 // LICENSE OPTIONS
 {
-    type: 'checkbox',
+    type: 'list',
     name:  'license',
     message: 'Please select a license option for your application repository (required)',
-    choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'Boost Software License 1.0', 'None'],
+    choices: ['Apache', 'GPL', 'MIT', 'BSD', 'Boost', 'noLicense'],
     validate: licenseOptions => {
     if (licenseOptions) {
         return true;
