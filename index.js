@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require ("generateMarkdown");
+const generateMarkdown = require ("./utils/generateMarkdown");
 
 
 const questions = [
@@ -133,11 +133,13 @@ const questions = [
 },
 ];
 // TO CREATE README FILE
+function writeFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err)
         throw err;
         console.log('Successfully created README with user input!')
     });
+};
 // INITIALIZE APPLICATION
 function init () {
     inquirer.prompt(questions)
