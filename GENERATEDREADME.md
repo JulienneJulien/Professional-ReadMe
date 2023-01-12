@@ -1,6 +1,6 @@
-#TEST 21
+#TEST 20 
 
-[![Apache license](https://img.shields.io/badge/license-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![BSD license](https://img.shields.io/badge/license-BSD-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
 ## Table of Content
 - [Description](#Description)
@@ -15,7 +15,7 @@
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit quam ut tortor tempor viverra eget in dolor. Ut pretium augue sed orci commodo pulvinar. Donec volutpat mauris elit, eget gravida velit facilisis eget. Donec dapibus enim eget nulla aliquam, ac semper orci sollicitudin. Aenean eu eros rhoncus, facilisis nisl in, auctor nisl. Etiam commodo rhoncus lacus id finibus. Aliquam ultricies nunc vitae leo suscipit, at scelerisque ante dictum. Fusce cursus sem et elit iaculis vestibulum. Etiam tincidunt lectus id odio scelerisque mollis. Nulla tristique ornare pulvinar. Mauris id metus vitae mi lacinia vehicula at eget dui. Integer vulputate leo in laoreet egestas. In tempor est vel nunc pulvinar posuere. Duis fringilla sagittis diam gravida pellentesque.
 
 ## Installation
- installation: '`npm install <package_name>`
+`npm install <package_name>`
 
 ## Usage
 `node index.js`
@@ -29,9 +29,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit qu
 N/A
 
 ## License
-    This application is licensed under the Apache license.
+    This application is licensed under the BSD license.
 
 ## Questions
 *Please contact me below!*
-- Github: [TEST 20](https://github.com/TEST 20)
-- Email: TEST20@GMAIL.COM 
+- Github: [test](https://github.com/test)
+- Email: test@gmail.com 
