@@ -60,7 +60,9 @@
 - Create an **index.js** file inside your working directory project folder. 
 - Copy and paste the code below within your created **index.js** file.
 `node index.js`
-- Observe the result in the terminal. See the image/video below for demo. 
+- Observe the result in the terminal. See the images and video below for demo. 
+
+https://user-images.githubusercontent.com/117052258/212256792-b3804868-e4aa-4718-b369-88e446406f7a.mp4
 
 <img src="./Assets/Screenshot_SampleReadMeCode.png">
 
