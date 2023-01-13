@@ -13,7 +13,7 @@
 - [Questions](#questions)
 
 ## Description
-  *Implementing Node.js to trigger a professional readme.md file from a user's input using the* **Inquirer package**.
+ *Implementing Node.js to trigger a professional readme.md file from a user's input using the* **Inquirer package**.
   
 >GIVEN a command-line application that accepts user input
 >
