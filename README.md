@@ -56,7 +56,7 @@
 
 
 ## Usage
-**Please ensure you have followed above steps to install package first!**
+***Please ensure you have followed above steps to install package first!***
 - Create an **index.js** file inside your working directory project folder. 
 - Copy and paste the code below within your created **index.js** file.
 `node index.js`
