@@ -62,6 +62,8 @@
 `node index.js`
 - Observe the result in the terminal. See the images and video below for demo. 
 
+https://user-images.githubusercontent.com/117052258/213753141-f26ad8cb-b3be-4b0d-8541-7a6985297a1b.mp4
+
 https://user-images.githubusercontent.com/117052258/212256792-b3804868-e4aa-4718-b369-88e446406f7a.mp4
 
 <img src="./Assets/Screenshot_SampleReadMeCode.png">
